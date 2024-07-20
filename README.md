@@ -3,15 +3,15 @@
 **Description**
 This script filters companies from a CSV file based on specific services they offer. The script loads a CSV file named 'companies.csv', extracts the column names, defines a list of relevant services related to email marketing and management, filters the companies based on those services, and saves the filtered companies to a new CSV file named 'filtered_companies.csv'.
 
-#Requirements
+# Requirements
     * Python3
     * csv module (built-in)
-#Usage
+# Usage
     1. Place the companies.csv file in the same directory as the script.
     2. Run the script using Python: python filter_companies.py
     3. The script will generate a new CSV file named filtered_companies.
     4. csv with the filtered companies.
-#Script
+# Script
 **Step 1: Load the CSV file**
 The script loads the 'companies.csv' file using the 'csv' module.
 
@@ -52,10 +52,10 @@ with open('filtered_companies.csv', 'w', newline='') as file:
     writer = csv.writer(file)
     writer.writerows(filtered_companies)
      
-#Input
+# Input
 
 The script takes a CSV file named 'companies.csv'
 
-#Output
+# Output
 
 The script generates a new CSV file named 'filtered_companies.csv' with the filtered companies. The output CSV file has the same columns as the input CSV file.
