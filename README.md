@@ -16,9 +16,9 @@ This script filters companies from a CSV file based on specific services they of
 The script loads the 'companies.csv' file using the 'csv' module.
 
 
-   '''with open('companies.csv', 'r') as file:
-       reader = csv.reader(file)
-       companies = list(reader)'''
+   1. with open('companies.csv', 'r') as file:
+   2.    reader = csv.reader(file)
+   3.    companies = list(reader)'''
      
 **Step 2: Get the column names**
 The script extracts the column names from the first row of the CSV file.
