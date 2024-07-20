@@ -1,6 +1,7 @@
 
 # **Filter Companies by Services**
 **Description**
+
 This script filters companies from a CSV file based on specific services they offer. The script loads a CSV file named 'companies.csv', extracts the column names, defines a list of relevant services related to email marketing and management, filters the companies based on those services, and saves the filtered companies to a new CSV file named 'filtered_companies.csv'.
 
 # Requirements
